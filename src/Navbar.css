@@ -1,0 +1,82 @@
+#icone-carro,
+#icone-moto {
+  width: 60px;
+  height: 40px;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+
+  margin-top: 12px;
+}
+
+.grupo-menu ul {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+}
+
+.grupo-menu ul li {
+  display: flex;
+  align-items: flex-end;
+  
+  padding: 12px;
+  color: #8f8f9c;
+}
+
+.grupo-menu ul #selected {
+  border-bottom: 2px solid #d10e32;
+}
+
+.grupo-menu ul #no-selected {
+  border-bottom: 1px solid #c6c6d8;
+}
+
+.grupo-menu .p-comprar {
+  font-size: 0.9rem;
+  line-height: 6px;
+}
+
+.grupo-menu ul li p {
+  font-size:  1.6rem;
+}
+
+.botao-container {
+  display: flex;
+  align-items: center;
+}
+
+.botao-container button {
+  background-color: #f3f5f8;
+  border: 2px solid #f3a81d;
+  color: #f3a81d;
+  padding: 8px 38px;
+}
+
+.botao-container-mobile {
+  display: none;
+}
+
+@media (max-width: 933px){
+  .navbar-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .botao-container {
+    display: none;
+  }
+
+  .botao-container-mobile {
+    display: flex;
+  }
+
+  .botao-container-mobile button {
+    background-color: #f3f5f8;
+    border: 2px solid #f3a81d;
+    color: #f3a81d;
+    padding: 8px 38px;
+    margin: 0 auto;
+  }
+}

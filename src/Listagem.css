@@ -1,0 +1,52 @@
+.conteudo-container {
+  margin-top: 12px;
+  background-color: #fff;
+  padding: 20px;
+}
+
+.card {
+  margin-bottom: 40px;
+  border-bottom: 1px solid grey
+}
+
+.titulo {
+  text-align: center;
+}
+
+span {
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  margin: 6px;
+}
+
+.image {
+  width: 790px;
+  height: 480px;
+  border-radius: 4px;
+  box-shadow: 4px 4px 16px grey;
+}
+
+.price {
+  background-color: #d10e32;
+  max-width: 250px;
+  padding: 12px;
+}
+
+.price p {
+  color: #fff;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.4rem;
+}
+
+@media (max-width: 933px) {
+  .image {
+    width: 350px;
+    height: 250px;
+  }
+}

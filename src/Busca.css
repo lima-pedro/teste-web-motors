@@ -1,0 +1,197 @@
+.busca-container {
+  display: flex;
+  background-color: #fff !important;
+  border-radius: 6px;
+  box-shadow: 6px 6px 6px rgb(233, 233, 233);
+}
+
+.inputs-container {
+  display: flex;
+  flex-direction: column;
+  padding: 32px;
+}
+
+.grupo-checkbox {
+  display: flex;
+}
+
+.checkbox {
+  margin-right: 42px;
+}
+
+.checkbox label {
+  margin-left: 6px;
+  color: #7c7c7c;
+}
+
+.grid-inputs {
+  display: flex;
+  flex-direction: column;
+}
+
+.row-inputs {
+  display: flex;
+  margin-top: 16px;
+}
+
+.row-inputs .input-group {
+  display: flex;
+  align-items: center;
+  border: 1px solid #b1b1b1;
+  border-radius: 6px;
+}
+
+.input-group img {
+  margin-left: 8px;
+}
+
+.input-group p {
+  margin-left: 8px;
+  color: #7c7c7c;
+}
+
+.input-cidade {
+  width: 38%;
+}
+
+.row-inputs > .input-cidade {
+  border-radius: 6px 0px 0px 6px;
+}
+
+.input-raio {
+  width: 14%;
+}
+
+.input-raio input {
+  width: 45%;
+}
+
+.row-inputs > .input-raio {
+  border-radius: 0px 6px 6px 0px;
+}
+
+.input-group > .input {
+  width: 62%;
+}
+
+.input-marca,
+.input-modelo {
+  margin-left: 10px;
+  width: 25%
+}
+
+.row-inputs img {
+  width: 16px;
+  height: 16px;
+}
+
+.input-ano,
+.input-faixa-preco {
+  border: 1px solid #b1b1b1;
+  border-radius: 6px;
+  width: 40%;
+}
+
+.input-faixa-preco,
+.input-versao {
+  margin-left: 10px;
+}
+
+.input-versao {
+  width: 84%;
+}
+
+.input {
+  padding: 12px;
+  background-color: #fff;
+  outline: none;
+}
+
+::-webkit-input-placeholder {
+  font-size: 1rem;
+}
+
+.input-versao > .input {
+  width: 81%;
+}
+
+.row-inputs-links {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 14px;
+}
+
+.links-group {
+  display: flex;
+  align-items: center;
+}
+
+.links-group a {
+  text-decoration: none;
+  color: #d10e32
+}
+
+.links-group #link-filtros {
+  color:  #747474;
+  margin-right: 22px;
+}
+
+.links-group img {
+  width: 8px;
+  height: 8px;
+  margin-right: 6px;
+}
+
+.btn-ofertas {
+  margin-left: 12px;
+  padding: 10px 88px;
+  font-size: 1.3rem;
+  background-color: #d10e32;
+  border-radius: 4px;
+
+  color: #fff;
+  font-weight: 700;
+}
+
+@media (max-width: 933px){
+  .row-inputs,
+  .row-inputs-links {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+  }
+
+  .inputs-container {
+    display: flex;
+  }
+
+  .input-group,
+  .input-ano,
+  .input-faixa-preco {
+    width: 100%;
+    margin: 0;
+    margin-bottom: 4px;
+  }
+
+  .row-inputs > .input-cidade {
+    border-radius: 6px;
+  }
+
+  .row-inputs > .input-raio {
+    border-radius: 6px;
+  }
+
+  .input-group > .input {
+    width: 100%;
+  }
+
+  .links-group {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .links-group > img {
+    display: none;
+  }
+ 
+}
